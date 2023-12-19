@@ -1,0 +1,101 @@
+@font-face
+{
+    font-family: 'droid_sansregular';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: greenyellow;
+    background-color: #100c0d;
+    background-image: url('../img/space-invaders.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+h1, h2, .logo
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+}
+
+h1 {
+    color: yellow;
+    font-size: 2em;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+h2 {
+    color: deepskyblue;
+}
+
+header {
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+header .logo img
+{
+    float: left;
+    border: 2px dashed greenyellow;
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    box-shadow: 4px 4px 10px greenyellow;
+}
+
+main {
+    clear: both;
+    padding: 20px;
+}
+
+footer a {
+    color: #100c0d;
+    text-shadow: 2px 2px 5px deeppink;
+}
+
+footer a:hover {
+    color: deeppink;
+    text-shadow: 1px 1px 5px deeppink;
+}
