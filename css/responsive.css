@@ -1,0 +1,29 @@
+/* Pour les écrans >= 660px */
+@media screen and (min-width: 660px) {
+    /* On affiche le liseret */
+    main .liseret {
+        display: block;
+        position: absolute;
+        background-color: deeppink;
+        width: 20px;
+        height: 400px;
+    }
+
+    /* Ajout de flex pour affichage en colonnes */
+    main .cols {
+        margin-left: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Contenu sur 2 colonnes */
+    main .cols section {
+       flex-basis: 50%;
+    }
+}
+/* Pour les Ã©écrans >= 910px */
+@media screen and (min-width: 910px) {
+    /* Contenu sur 2 colonnes */
+    main .cols section {
+        flex-basis: 33%;
+    }
+}
