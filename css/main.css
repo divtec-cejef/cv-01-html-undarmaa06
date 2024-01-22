@@ -1,0 +1,49 @@
+*  {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+footer, header {
+    border: 18px solid #283618;
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #283618;
+    background-color: #fefae0;
+    background-image: url("../image/fond.png");
+    background-position: left;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #bc6c25;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dda15e;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+footer, header {
+    padding: 10px 15px;
+    border: 12px solid #283618;
+    background-color: #606c38;
+    color: #fefae0;
+}
